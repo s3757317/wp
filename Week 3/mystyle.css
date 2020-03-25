@@ -1,0 +1,48 @@
+div {
+    color: black;
+}
+
+p {
+    color: green;
+    background-color: khaki;
+    font-size: xx-large;
+    text-align: center;
+    width: 80%;
+    border: thick red dotted;
+    padding: 2px 10px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: sans-serif;
+}
+
+#s1234567 {
+    color: blue;
+}
+
+.strike {
+    text-decoration: line-through;
+    color: orange;
+}
+
+div p {
+    color: blue;
+}
+
+div > p {
+    color: pink;
+}
+
+h1 > p {
+    color: pink;
+}
+
+div h1 ~ h2 {
+    color: brown;
+}
+
+h1 ~ h2 {
+    color: yellowgreen;
+}
