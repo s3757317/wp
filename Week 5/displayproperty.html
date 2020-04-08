@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        span.a {
+            display: inline;
+            width: 100px;
+            height: 200px;
+            padding: 5px;
+            border: 1px solid blue;
+            background-color: yellow;
+        }
+
+        span.b {
+            display: inline-block;
+            width: 45%;
+            height: 400px;
+            min-width: 400px;
+            max-width: 600px;
+            box-sizing: border-box;
+            border: 1px solid blue;
+            background-color: yellow;
+        }
+
+        span.c {
+            display: block;
+            width: 100px;
+            height: 200px;
+            padding: 5px;
+            border: 1px solid blue;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>The Display Property</h1>
+
+    <h2>Display: Inline</h2>
+    <div>This is to test the Inline <span class="a"> Inline </span> <span class="a"> Inline </span>display</div>
+
+    <h2>Display: Inline-Block</h2>
+    <div>This is to test the Inline <span class="b"> Inline </span> <span class="b"> Inline </span>display</div>
+
+    <h2>Display: Block</h2>
+    <div>This is to test the Inline <span class="c"> Inline </span> <span class="c"> Inline </span>display</div>
+</body>
+
+</html>
